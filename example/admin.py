@@ -1,6 +1,3 @@
-from django.apps import AppConfig
+from django.contrib import admin
 
-
-class ExampleConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'example'
+# Register your models here.
