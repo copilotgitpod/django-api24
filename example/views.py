@@ -4,7 +4,7 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 
 class News:
-    def init(self, tit, des, img):
+    def __init__(self, tit, des, img):
         self.tit = tit
         self.des = des
         self.img = img
